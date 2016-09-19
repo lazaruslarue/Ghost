@@ -20,6 +20,7 @@
   "scripts": {
     "preinstall": "node core/server/utils/npm/preinstall.js",
     "start": "node index",
+    "dostart": "GHOST_NODE_VERSION_CHECK=false node index",
     "test": "grunt validate --verbose"
   },
   "engines": {
